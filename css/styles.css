@@ -1,0 +1,54 @@
+
+/* imported a certain font from google fonts */
+/* https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+.root{
+
+    --primary: #0d6efd;
+    --dark: #21252f;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgba(0,0,0,0.1)
+
+}
+
+body{
+
+    font-family: sora, "sans-serif";
+    line-height: 1.7;
+    color:var(--body)
+
+
+}
+
+h1,h2,h3,h4,h5,h6
+.display-4 {
+    
+    color: var(--dark);
+    text-decoration: none;
+
+}
+
+a{
+
+    color: var(--dark);
+    text-decoration: none;
+}
+
+
+#services{
+
+    padding-top: 60px;
+
+}
+
+/* located code on link below to fix background image */
+/* https://www.w3schools.com/cssref/tryit.php?filename=trycss_background-attachmen */
+.mainLandingPage{
+    background-image: url(../img/mainLandingImg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
